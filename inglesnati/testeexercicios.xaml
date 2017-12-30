@@ -1,0 +1,71 @@
+﻿<Window x:Class="inglesnati.testeexercicios"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Exercícios" Height="600" Width="800">
+    <Grid>
+        <TabControl HorizontalAlignment="Left" Height="551" Margin="4,5,0,0" VerticalAlignment="Top" Width="778">
+            <TabItem Header="Leitura">
+                <Grid Background="#FFE5E5E5" Margin="0,0,-1,-12">
+                    <ComboBox Name="ComboBoxEscolherLeitura" HorizontalAlignment="Left" Margin="4,32,0,0" VerticalAlignment="Top" Width="427" />
+                    <Label Content="Escolha o texto para leitura" HorizontalAlignment="Left" Margin="5,6,0,0" VerticalAlignment="Top" Width="268"/>
+                    <TextBox Name="TBtextoLeitura" VerticalScrollBarVisibility="Visible" IsReadOnly="True" HorizontalAlignment="Left" Height="272" Margin="2,60,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="771"/>
+                    <Button Content="Ler" HorizontalAlignment="Left" Margin="437,33,0,0" VerticalAlignment="Top" Width="75" Click="Button_Click_1"/>
+                    <TextBox Name="LBvocabulario" AcceptsReturn="True" VerticalScrollBarVisibility="Visible" HorizontalAlignment="Left" Height="168" Margin="5,351,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="766"/>
+                    <Label Content="Vocabulário de Apóio:" HorizontalAlignment="Left" Margin="2,329,0,0" VerticalAlignment="Top" Height="26"/>
+                </Grid>
+            </TabItem>
+            <TabItem Header="Reorganizar">
+                <Grid Background="#FFE5E5E5">
+                    <Label Content="Organize o texto na ordem do dialogo" HorizontalAlignment="Left" Margin="38,27,0,0" VerticalAlignment="Top"/>
+                    <ComboBox Name="frase1" HorizontalAlignment="Left" Margin="76,71,0,0" VerticalAlignment="Top" Width="578"/>
+                    <ComboBox Name="frase2" HorizontalAlignment="Left" Margin="77,102,0,0" VerticalAlignment="Top" Width="578"/>
+                    <ComboBox Name="frase3" HorizontalAlignment="Left" Margin="77,132,0,0" VerticalAlignment="Top" Width="579"/>
+                    <ComboBox Name="frase4" HorizontalAlignment="Left" Margin="77,163,0,0" VerticalAlignment="Top" Width="579"/>
+                    <ComboBox Name="frase5" HorizontalAlignment="Left" Margin="78,194,0,0" VerticalAlignment="Top" Width="579"/>
+                    <ComboBox Name="frase6" HorizontalAlignment="Left" Margin="80,225,0,0" VerticalAlignment="Top" Width="576"/>
+                    <ComboBox Name="frase7" HorizontalAlignment="Left" Margin="81,256,0,0" VerticalAlignment="Top" Width="575"/>
+                    <ComboBox Name="frase8" HorizontalAlignment="Left" Margin="81,286,0,0" VerticalAlignment="Top" Width="575"/>
+                    <ComboBox Name="frase9" HorizontalAlignment="Left" Margin="82,320,0,0" VerticalAlignment="Top" Width="575"/>
+                    <ComboBox Name="frase10" HorizontalAlignment="Left" Margin="83,352,0,0" VerticalAlignment="Top" Width="574"/>
+                    <Button Name="BTresposta" Content="Resposta" HorizontalAlignment="Left" Margin="83,480,0,0" VerticalAlignment="Top" Width="75" Click="BTresposta_Click"/>
+                    <TextBox Name="texto" AcceptsReturn="True" VerticalScrollBarVisibility="Visible" HorizontalAlignment="Left" Height="91" Margin="83,379,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="573"/>
+                    <Button Name="BTproximo" Content="Próximo" HorizontalAlignment="Left" Margin="581,480,0,0" VerticalAlignment="Top" Width="75" Click="BTproximo_Click"/>
+                </Grid>
+            </TabItem>
+            <TabItem Header="Relacionar" HorizontalAlignment="Left" Height="20" VerticalAlignment="Top" Width="75" Margin="-2,-2,-18,0">
+                <Grid Background="#FFE5E5E5" Margin="0,0,-3,0">
+                    <Grid.ColumnDefinitions>
+                        <ColumnDefinition Width="281*"/>
+                        <ColumnDefinition Width="494*"/>
+                    </Grid.ColumnDefinitions>
+                    <Label Content="Relacione o phrasal verb com seu significado." HorizontalAlignment="Left" Margin="29,20,0,0" VerticalAlignment="Top"/>
+                    <ComboBox Name="phrasalverb1" ItemsSource="{ Binding ElementName=SelectionFun, Path=ShapeCollection}"  HorizontalAlignment="Left" Margin="47,77,0,0" VerticalAlignment="Top" Width="120"/>
+                    <ComboBox Name="phrasalverb2" HorizontalAlignment="Left" Margin="48,110,0,0" VerticalAlignment="Top" Width="120"/>
+                    <ComboBox Name="phrasalverb3" HorizontalAlignment="Left" Margin="49,142,0,0" VerticalAlignment="Top" Width="120"/>
+                    <ComboBox Name="phrasalverb4" HorizontalAlignment="Left" Margin="48,176,0,0" VerticalAlignment="Top" Width="120"/>
+                    <ComboBox Name="phrasalverb5" HorizontalAlignment="Left" Margin="48,209,0,0" VerticalAlignment="Top" Width="120"/>
+                    <ComboBox Name="phrasalverb6" HorizontalAlignment="Left" Margin="49,242,0,0" VerticalAlignment="Top" Width="120"/>
+                    <ComboBox Name="phrasalverb7" HorizontalAlignment="Left" Margin="49,274,0,0" VerticalAlignment="Top" Width="120"/>
+                    <ComboBox Name="phrasalverb8" HorizontalAlignment="Left" Margin="50,305,0,0" VerticalAlignment="Top" Width="120"/>
+                    <ComboBox Name="phrasalverb9" HorizontalAlignment="Left" Margin="50,339,0,0" VerticalAlignment="Top" Width="120"/>
+                    <ComboBox Name="phrasalverb10" HorizontalAlignment="Left" Margin="50,371,0,0" VerticalAlignment="Top" Width="120"/>
+                    <ComboBox Name="phrasalverb11" HorizontalAlignment="Left" Margin="51,404,0,0" VerticalAlignment="Top" Width="120"/>
+                    <TextBox Name="phresposta1" HorizontalAlignment="Left" Height="23" Margin="1,78,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="487" Grid.Column="1"/>
+                    <TextBox Name="phresposta2" HorizontalAlignment="Left" Height="23" Margin="1,112,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="487" Grid.Column="1"/>
+                    <TextBox Name="phresposta3" HorizontalAlignment="Left" Height="23" Margin="1,144,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="487" Grid.Column="1"/>
+                    <TextBox Name="phresposta4" HorizontalAlignment="Left" Height="23" Margin="1,177,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="487" Grid.Column="1"/>
+                    <TextBox Name="phresposta5" HorizontalAlignment="Left" Height="23" Margin="1,210,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="487" Grid.Column="1"/>
+                    <TextBox Name="phresposta6" HorizontalAlignment="Left" Height="23" Margin="1,245,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="487" Grid.Column="1"/>
+                    <TextBox Name="phresposta7" HorizontalAlignment="Left" Height="23" Margin="0,277,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="487" Grid.Column="1"/>
+                    <TextBox Name="phresposta8" HorizontalAlignment="Left" Height="23" Margin="0,307,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="487" Grid.Column="1"/>
+                    <TextBox Name="phresposta9" HorizontalAlignment="Left" Height="23" Margin="280,338,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="487" Grid.ColumnSpan="2"/>
+                    <TextBox Name="phresposta10" HorizontalAlignment="Left" Height="23" Margin="280,370,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="487" Grid.ColumnSpan="2"/>
+                    <TextBox Name="phresposta11" HorizontalAlignment="Left" Height="23" Margin="280,403,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="487" Grid.ColumnSpan="2"/>
+                    <Button Name="BTproximorelacionar" Content="Próximo" Grid.Column="1" HorizontalAlignment="Left" Margin="382,468,0,0" VerticalAlignment="Top" Width="75" Click="BTproximorelacionar_Click"/>
+                    <Button Name="BTanteriorrelacionar" Content="Anterior" Grid.Column="1" HorizontalAlignment="Left" Margin="306,468,0,0" VerticalAlignment="Top" Width="75" Click="BTanteriorrelacionar_Click"/>
+                </Grid>
+            </TabItem>
+        </TabControl>
+
+    </Grid>
+</Window>

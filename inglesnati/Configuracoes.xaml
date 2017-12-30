@@ -1,0 +1,44 @@
+﻿<Window x:Class="inglesnati.Configuracoes"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Configuracões" Height="600" Width="800">
+    <Grid>
+        <Label Content="PARAMETROS DA CONTA DO USUARIO" HorizontalAlignment="Left" Margin="254,23,0,0" VerticalAlignment="Top"/>
+        <DockPanel HorizontalAlignment="Left" Height="74" LastChildFill="False" Margin="1,1,0,0" VerticalAlignment="Top" Width="789"/>
+        <GroupBox Header="Dados da conta" HorizontalAlignment="Left" Margin="21,101,0,0" VerticalAlignment="Top" Height="253" Width="363">
+            <PasswordBox Name="senha" HorizontalAlignment="Left" Margin="190,100,0,0" VerticalAlignment="Top" Width="156" Height="22"/>
+        </GroupBox>
+        <GroupBox Header="Resetar dados" HorizontalAlignment="Left" Margin="400,105,0,0" VerticalAlignment="Top" Height="248" Width="370">
+            <CheckBox Name="lerdepois" Content="Permitir que eu leia os artigos depois" HorizontalAlignment="Left" Margin="15,201,0,0" VerticalAlignment="Top" Width="328"/>
+        </GroupBox>
+        <CheckBox Content="Resetar pontos" HorizontalAlignment="Left" Margin="413,141,0,0" VerticalAlignment="Top"/>
+        <GroupBox Header="Resetar artigos" HorizontalAlignment="Left" Margin="410,171,0,0" VerticalAlignment="Top" Height="98" Width="352">
+            <CheckBox Content="Exercises" HorizontalAlignment="Left" Margin="99,39,0,0" VerticalAlignment="Top"/>
+        </GroupBox>
+        <CheckBox Content="Interviews" HorizontalAlignment="Left" Margin="514,201,0,0" VerticalAlignment="Top"/>
+        <CheckBox Content="Expressions" HorizontalAlignment="Left" Margin="425,226,0,0" VerticalAlignment="Top"/>
+        <CheckBox Content="All" Click="resetartudo"  HorizontalAlignment="Left" Margin="620,201,0,0" VerticalAlignment="Top"/>
+        <CheckBox Content="Grammar" HorizontalAlignment="Left" Margin="425,204,0,0" VerticalAlignment="Top"/>
+        <Label Content="Nome:" HorizontalAlignment="Left" Margin="31,128,0,0" VerticalAlignment="Top" Height="28" Width="51"/>
+        <Label Content="E-Mail:" HorizontalAlignment="Left" Margin="216,127,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.314,0.222"/>
+        <TextBox x:Name="nomecompleto" HorizontalAlignment="Left" Height="23" Margin="36,149,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="148"/>
+        <TextBox x:Name="email" HorizontalAlignment="Left" Height="22" Margin="220,147,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="156"/>
+        <Label Content="Login:" HorizontalAlignment="Left" Margin="37,186,0,0" VerticalAlignment="Top"/>
+        <TextBox x:Name="login" HorizontalAlignment="Left" Height="22" Margin="40,209,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="140"/>
+
+        <Label Content="Senha:" HorizontalAlignment="Left" Margin="216,190,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.5,0.5" Height="24">
+            <Label.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="1.066"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </Label.RenderTransform>
+        </Label>
+        <Button x:Name="BTcadastrar" Click="cadastrarusuario" Content="Atualizar senha" HorizontalAlignment="Left" Height="26" Margin="262,316,0,0" VerticalAlignment="Top" Width="96"/>
+        <Label Content="Artigos lidos pelo usuário:" HorizontalAlignment="Left" Margin="24,367,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.434,-0.501"/>
+        <Button Content="Excluir Conta" HorizontalAlignment="Left" Margin="663,539,0,0" VerticalAlignment="Top" Width="95"/>
+
+    </Grid>
+</Window>

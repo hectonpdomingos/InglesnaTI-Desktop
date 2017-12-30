@@ -1,0 +1,22 @@
+﻿<Window x:Class="inglesnati.expressoes"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Expressoes" Height="600" Width="800">
+    <Grid>
+        <Grid.ColumnDefinitions>
+            <ColumnDefinition Width="269*"/>
+            <ColumnDefinition Width="85*"/>
+            <ColumnDefinition Width="42*"/>
+        </Grid.ColumnDefinitions>
+        <ComboBox Name="ComboEscolherExpressoes" HorizontalAlignment="Left"   Margin="44,44,0,0" VerticalAlignment="Top" Width="218"/>
+        <Button Content="OK" Name="Btok" HorizontalAlignment="Left" Margin="289,45,0,0" VerticalAlignment="Top" Width="76" Click="Btok_Click" Height="24"/>
+        <Label Content="Escolha o tópico." HorizontalAlignment="Left" Margin="40,17,0,0" VerticalAlignment="Top" Width="154"/>
+        <TextBox Name="TBtexto" IsReadOnly="True" TextOptions.TextFormattingMode="Display" FontSize="14" HorizontalAlignment="Left" VerticalScrollBarVisibility="Visible" Height="445" Margin="47,84,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="710" Grid.ColumnSpan="3" TextChanged="Texto_TextChanged"/>
+        <TextBox Name="TBpontoshj" HorizontalAlignment="Left" Height="22" Margin="6,41,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="60" Grid.Column="2"/>
+        <Label Name="LBpontos" Content="Pontos:" HorizontalAlignment="Left" Margin="127,41,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.423,0.151" Width="57" Grid.ColumnSpan="2" Grid.Column="1"/>
+        <Label Content="Usuário:" HorizontalAlignment="Left" Margin="532,40,0,0" VerticalAlignment="Top" Grid.ColumnSpan="2"/>
+        <TextBox Name="TBusuariologado" HorizontalAlignment="Left" Height="23" Margin="50,43,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="79" Grid.Column="1"/>
+        <CheckBox Name="checkBoxlido" Click="EventoMarcarComoLido" Content="Marcar como lido." HorizontalAlignment="Left" Margin="95,540,0,0" VerticalAlignment="Top" Width="122" Grid.ColumnSpan="2" Grid.Column="1"/>
+
+    </Grid>
+</Window>

@@ -1,0 +1,102 @@
+C:\Users\Hecton\documents\visual studio 2013\Projects\inglesnati\bin\Debug\audio\audio.mp3
+C:\Users\Hecton\documents\visual studio 2013\Projects\inglesnati\bin\Debug\inglesnati.exe.config
+C:\Users\Hecton\documents\visual studio 2013\Projects\inglesnati\bin\Debug\inglesnati.exe.manifest
+C:\Users\Hecton\documents\visual studio 2013\Projects\inglesnati\bin\Debug\inglesnati.application
+C:\Users\Hecton\documents\visual studio 2013\Projects\inglesnati\bin\Debug\inglesnati.exe
+C:\Users\Hecton\documents\visual studio 2013\Projects\inglesnati\bin\Debug\inglesnati.pdb
+C:\Users\Hecton\documents\visual studio 2013\Projects\inglesnati\bin\Debug\MySql.Data.dll
+C:\Users\Hecton\documents\visual studio 2013\Projects\inglesnati\bin\Debug\Interop.WMPLib.dll
+C:\Users\Hecton\documents\visual studio 2013\Projects\inglesnati\bin\Debug\AxInterop.WMPLib.dll
+C:\Users\Hecton\documents\visual studio 2013\Projects\inglesnati\obj\Debug\inglesnati.csprojResolveAssemblyReference.cache
+C:\Users\Hecton\documents\visual studio 2013\Projects\inglesnati\obj\Debug\Interop.WMPLib.dll
+C:\Users\Hecton\documents\visual studio 2013\Projects\inglesnati\obj\Debug\AxInterop.WMPLib.dll
+C:\Users\Hecton\documents\visual studio 2013\Projects\inglesnati\obj\Debug\inglesnati.csproj.ResolveComReference.cache
+C:\Users\Hecton\documents\visual studio 2013\Projects\inglesnati\obj\Debug\CadastroUsers.baml
+C:\Users\Hecton\documents\visual studio 2013\Projects\inglesnati\obj\Debug\Configuracoes.baml
+C:\Users\Hecton\documents\visual studio 2013\Projects\inglesnati\obj\Debug\expressoes.baml
+C:\Users\Hecton\documents\visual studio 2013\Projects\inglesnati\obj\Debug\Grammar.baml
+C:\Users\Hecton\documents\visual studio 2013\Projects\inglesnati\obj\Debug\interview.baml
+C:\Users\Hecton\documents\visual studio 2013\Projects\inglesnati\obj\Debug\MainWindow.baml
+C:\Users\Hecton\documents\visual studio 2013\Projects\inglesnati\obj\Debug\mensagens.baml
+C:\Users\Hecton\documents\visual studio 2013\Projects\inglesnati\obj\Debug\ranking.baml
+C:\Users\Hecton\documents\visual studio 2013\Projects\inglesnati\obj\Debug\teladelogin.baml
+C:\Users\Hecton\documents\visual studio 2013\Projects\inglesnati\obj\Debug\testeexercicios.baml
+C:\Users\Hecton\documents\visual studio 2013\Projects\inglesnati\obj\Debug\Testeformdentrodeoutro.baml
+C:\Users\Hecton\documents\visual studio 2013\Projects\inglesnati\obj\Debug\testes.baml
+C:\Users\Hecton\documents\visual studio 2013\Projects\inglesnati\obj\Debug\CadastroUsers.g.cs
+C:\Users\Hecton\documents\visual studio 2013\Projects\inglesnati\obj\Debug\Configuracoes.g.cs
+C:\Users\Hecton\documents\visual studio 2013\Projects\inglesnati\obj\Debug\expressoes.g.cs
+C:\Users\Hecton\documents\visual studio 2013\Projects\inglesnati\obj\Debug\Grammar.g.cs
+C:\Users\Hecton\documents\visual studio 2013\Projects\inglesnati\obj\Debug\interview.g.cs
+C:\Users\Hecton\documents\visual studio 2013\Projects\inglesnati\obj\Debug\MainWindow.g.cs
+C:\Users\Hecton\documents\visual studio 2013\Projects\inglesnati\obj\Debug\mensagens.g.cs
+C:\Users\Hecton\documents\visual studio 2013\Projects\inglesnati\obj\Debug\ranking.g.cs
+C:\Users\Hecton\documents\visual studio 2013\Projects\inglesnati\obj\Debug\teladelogin.g.cs
+C:\Users\Hecton\documents\visual studio 2013\Projects\inglesnati\obj\Debug\testeexercicios.g.cs
+C:\Users\Hecton\documents\visual studio 2013\Projects\inglesnati\obj\Debug\Testeformdentrodeoutro.g.cs
+C:\Users\Hecton\documents\visual studio 2013\Projects\inglesnati\obj\Debug\testes.g.cs
+C:\Users\Hecton\documents\visual studio 2013\Projects\inglesnati\obj\Debug\App.g.cs
+C:\Users\Hecton\documents\visual studio 2013\Projects\inglesnati\obj\Debug\inglesnati_Content.g.cs
+C:\Users\Hecton\documents\visual studio 2013\Projects\inglesnati\obj\Debug\inglesnati_MarkupCompile.cache
+C:\Users\Hecton\documents\visual studio 2013\Projects\inglesnati\obj\Debug\inglesnati.g.resources
+C:\Users\Hecton\documents\visual studio 2013\Projects\inglesnati\obj\Debug\inglesnati.AboutBox1.resources
+C:\Users\Hecton\documents\visual studio 2013\Projects\inglesnati\obj\Debug\inglesnati.Atualizar.resources
+C:\Users\Hecton\documents\visual studio 2013\Projects\inglesnati\obj\Debug\inglesnati.ListaPhrasalVerbs.resources
+C:\Users\Hecton\documents\visual studio 2013\Projects\inglesnati\obj\Debug\inglesnati.Listening.resources
+C:\Users\Hecton\documents\visual studio 2013\Projects\inglesnati\obj\Debug\inglesnati.PainelAdministrativo.resources
+C:\Users\Hecton\documents\visual studio 2013\Projects\inglesnati\obj\Debug\inglesnati.Properties.Resources.resources
+C:\Users\Hecton\documents\visual studio 2013\Projects\inglesnati\obj\Debug\inglesnati.Rank.resources
+C:\Users\Hecton\documents\visual studio 2013\Projects\inglesnati\obj\Debug\inglesnati.Testdownload.resources
+C:\Users\Hecton\documents\visual studio 2013\Projects\inglesnati\obj\Debug\inglesnati.Videos.resources
+C:\Users\Hecton\documents\visual studio 2013\Projects\inglesnati\obj\Debug\inglesnati.csproj.GenerateResource.Cache
+C:\Users\Hecton\documents\visual studio 2013\Projects\inglesnati\obj\Debug\inglesnati.TrustInfo.xml
+C:\Users\Hecton\documents\visual studio 2013\Projects\inglesnati\obj\Debug\inglesnati.exe.manifest
+C:\Users\Hecton\documents\visual studio 2013\Projects\inglesnati\obj\Debug\inglesnati.application
+C:\Users\Hecton\documents\visual studio 2013\Projects\inglesnati\obj\Debug\inglesnati.exe
+C:\Users\Hecton\documents\visual studio 2013\Projects\inglesnati\obj\Debug\inglesnati.pdb
+D:\Development\Desktop InglesnaTi\inglesnati\obj\Debug\inglesnati.csprojResolveAssemblyReference.cache
+D:\Development\Desktop InglesnaTi\inglesnati\obj\Debug\Interop.WMPLib.dll
+D:\Development\Desktop InglesnaTi\inglesnati\obj\Debug\AxInterop.WMPLib.dll
+D:\Development\Desktop InglesnaTi\inglesnati\obj\Debug\inglesnati.csproj.ResolveComReference.cache
+D:\Development\Desktop InglesnaTi\inglesnati\obj\Debug\CadastroUsers.baml
+D:\Development\Desktop InglesnaTi\inglesnati\obj\Debug\Configuracoes.baml
+D:\Development\Desktop InglesnaTi\inglesnati\obj\Debug\expressoes.baml
+D:\Development\Desktop InglesnaTi\inglesnati\obj\Debug\Grammar.baml
+D:\Development\Desktop InglesnaTi\inglesnati\obj\Debug\interview.baml
+D:\Development\Desktop InglesnaTi\inglesnati\obj\Debug\MainWindow.baml
+D:\Development\Desktop InglesnaTi\inglesnati\obj\Debug\mensagens.baml
+D:\Development\Desktop InglesnaTi\inglesnati\obj\Debug\ranking.baml
+D:\Development\Desktop InglesnaTi\inglesnati\obj\Debug\teladelogin.baml
+D:\Development\Desktop InglesnaTi\inglesnati\obj\Debug\testeexercicios.baml
+D:\Development\Desktop InglesnaTi\inglesnati\obj\Debug\Testeformdentrodeoutro.baml
+D:\Development\Desktop InglesnaTi\inglesnati\obj\Debug\testes.baml
+D:\Development\Desktop InglesnaTi\inglesnati\obj\Debug\CadastroUsers.g.cs
+D:\Development\Desktop InglesnaTi\inglesnati\obj\Debug\Configuracoes.g.cs
+D:\Development\Desktop InglesnaTi\inglesnati\obj\Debug\expressoes.g.cs
+D:\Development\Desktop InglesnaTi\inglesnati\obj\Debug\Grammar.g.cs
+D:\Development\Desktop InglesnaTi\inglesnati\obj\Debug\interview.g.cs
+D:\Development\Desktop InglesnaTi\inglesnati\obj\Debug\MainWindow.g.cs
+D:\Development\Desktop InglesnaTi\inglesnati\obj\Debug\mensagens.g.cs
+D:\Development\Desktop InglesnaTi\inglesnati\obj\Debug\ranking.g.cs
+D:\Development\Desktop InglesnaTi\inglesnati\obj\Debug\teladelogin.g.cs
+D:\Development\Desktop InglesnaTi\inglesnati\obj\Debug\testeexercicios.g.cs
+D:\Development\Desktop InglesnaTi\inglesnati\obj\Debug\Testeformdentrodeoutro.g.cs
+D:\Development\Desktop InglesnaTi\inglesnati\obj\Debug\testes.g.cs
+D:\Development\Desktop InglesnaTi\inglesnati\obj\Debug\App.g.cs
+D:\Development\Desktop InglesnaTi\inglesnati\obj\Debug\inglesnati_Content.g.cs
+D:\Development\Desktop InglesnaTi\inglesnati\obj\Debug\inglesnati_MarkupCompile.cache
+D:\Development\Desktop InglesnaTi\inglesnati\obj\Debug\inglesnati.g.resources
+D:\Development\Desktop InglesnaTi\inglesnati\obj\Debug\inglesnati.AboutBox1.resources
+D:\Development\Desktop InglesnaTi\inglesnati\obj\Debug\inglesnati.Atualizar.resources
+D:\Development\Desktop InglesnaTi\inglesnati\obj\Debug\inglesnati.ListaPhrasalVerbs.resources
+D:\Development\Desktop InglesnaTi\inglesnati\obj\Debug\inglesnati.Listening.resources
+D:\Development\Desktop InglesnaTi\inglesnati\obj\Debug\inglesnati.PainelAdministrativo.resources
+D:\Development\Desktop InglesnaTi\inglesnati\obj\Debug\inglesnati.Properties.Resources.resources
+D:\Development\Desktop InglesnaTi\inglesnati\obj\Debug\inglesnati.Rank.resources
+D:\Development\Desktop InglesnaTi\inglesnati\obj\Debug\inglesnati.Testdownload.resources
+D:\Development\Desktop InglesnaTi\inglesnati\obj\Debug\inglesnati.Videos.resources
+D:\Development\Desktop InglesnaTi\inglesnati\obj\Debug\inglesnati.csproj.GenerateResource.Cache
+D:\Development\Desktop InglesnaTi\inglesnati\obj\Debug\inglesnati.csproj.CoreCompileInputs.cache
+D:\Development\Desktop InglesnaTi\inglesnati\obj\Debug\inglesnati.TrustInfo.xml
+D:\Development\Desktop InglesnaTi\inglesnati\obj\Debug\inglesnati.exe
+D:\Development\Desktop InglesnaTi\inglesnati\obj\Debug\inglesnati.pdb

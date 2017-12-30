@@ -1,0 +1,26 @@
+﻿<Window x:Class="inglesnati.Grammar"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Grammar" Height="600" Width="800">
+    <Grid>
+        <Button Content="Ok" Name="Btok" HorizontalAlignment="Left" Margin="248,41,0,0" VerticalAlignment="Top" Width="75" Click="Btok_Click"/>
+        <ComboBox Name="ComboEscolherGrammar" HorizontalAlignment="Left" Margin="18,40,0,0" VerticalAlignment="Top" Width="186" RenderTransformOrigin="0.5,0.5">
+            <ComboBox.RenderTransform>
+                <TransformGroup>
+                    <ScaleTransform/>
+                    <SkewTransform/>
+                    <RotateTransform Angle="-0.09"/>
+                    <TranslateTransform/>
+                </TransformGroup>
+            </ComboBox.RenderTransform>
+        </ComboBox>
+        <TextBox Name="TBpontoshj" HorizontalAlignment="Left" Height="22" Margin="714,41,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="60"/>
+        <Label Name="LBpontos" Content="Pontos:" HorizontalAlignment="Left" Margin="665,41,0,0" VerticalAlignment="Top" RenderTransformOrigin="0.423,0.151" Width="57"/>
+        <Label Content="Escolha o tópico:" HorizontalAlignment="Left" Margin="18,18,0,0" VerticalAlignment="Top" Width="112"/>
+        <TextBox Name="TBtexto" IsReadOnly="True" AcceptsReturn="True" TextOptions.TextFormattingMode="Display" FontSize="14" VerticalScrollBarVisibility="Visible" HorizontalAlignment="Left" Height="435" Margin="21,86,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="749"/>
+        <CheckBox Name="checkBoxlido" Click="EventoMarcarComoLido" Content="Marcar como lido." HorizontalAlignment="Left" Margin="644,531,0,0" VerticalAlignment="Top" Width="122" Checked="checkBoxlido_Checked"/>
+        <Label Content="Usuário:" HorizontalAlignment="Left" Margin="532,40,0,0" VerticalAlignment="Top"/>
+        <TextBox Name="TBusuariologado" HorizontalAlignment="Left" Height="23" Margin="588,43,0,0" TextWrapping="Wrap" VerticalAlignment="Top" Width="79"/>
+
+    </Grid>
+</Window>
